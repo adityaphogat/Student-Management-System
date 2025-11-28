@@ -14,14 +14,14 @@ public class Main {
       var1.loadFromFile();
 
       while(true) {
-         System.out.println("\n===== KRMU Student Menu =====");
+         System.out.println("\n===== KRMU Student Menu =====\n");
          System.out.println("1. Add Student");
          System.out.println("2. View All Students");
          System.out.println("3. Search by Name");
          System.out.println("4. Delete by Name");
          System.out.println("5. Sort by Marks");
          System.out.println("6. Save and Exit");
-         System.out.print("Enter choice: ");
+         System.out.print("\nEnter choice: ");
          switch (var2.nextLine()) {
             case "1":
                var1.addStudent();
@@ -40,7 +40,7 @@ public class Main {
                break;
             case "6":
                var1.saveToFile();
-               System.out.println("Exiting application. Goodbye!");
+               System.out.println("\nExiting application. Goodbye!");
                var2.close();
                System.exit(0);
                break;

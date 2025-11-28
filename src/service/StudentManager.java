@@ -15,7 +15,7 @@ public class StudentManager implements RecordActions {
     @Override
     public void addStudent() {
         try {
-            System.out.print("Enter Roll No: ");
+            System.out.print("\nEnter Roll No: ");
             int rollNo = Integer.parseInt(scanner.nextLine());
 
             // Check for duplicate Roll No
@@ -113,7 +113,7 @@ public class StudentManager implements RecordActions {
     @Override
     public void sortStudentsByMarks() {
         if (students.isEmpty()) {
-            System.out.println("No records to sort.");
+            System.out.println("\nNo records to sort.");
             return;
         }
         Collections.sort(students, new Comparator<Student>() {
@@ -122,7 +122,7 @@ public class StudentManager implements RecordActions {
                 return Double.compare(s2.getMarks(), s1.getMarks());
             }
         });
-        System.out.println("Students sorted by marks (Descending).");
+        System.out.println("\nStudents sorted by marks (Descending).");
         viewAllStudents();
     }
 

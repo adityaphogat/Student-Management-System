@@ -26,7 +26,7 @@ public class Student extends Person {
 
     @Override
     public void displayInfo() {
-        System.out.println("Roll No: " + rollNo);
+        System.out.println("\nRoll No: " + rollNo);
         System.out.println("Name: " + name);
         System.out.println("Email: " + email);
         System.out.println("Course: " + course);
