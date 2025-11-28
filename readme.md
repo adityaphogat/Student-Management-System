@@ -89,6 +89,6 @@ If you prefer running it manually, follow these exact steps to avoid package err
 ---
 
 ## 👤 Author
-**Name:** Rohan Rathee\n
-**University:** K.R. Mangalam University\n
-**Department:** School of Engineering & Technology\n
+**Name:** Rohan Rathee  
+**University:** K.R. Mangalam University  
+**Department:** School of Engineering & Technology  
