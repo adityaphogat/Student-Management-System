@@ -1,3 +1,11 @@
-public interface RecordActions {
+package service;
 
+public interface RecordActions {
+    void addStudent();
+    void deleteStudent();
+    void searchStudent();
+    void viewAllStudents();
+    void sortStudentsByMarks(); 
+    void saveToFile();          
+    void loadFromFile();        
 }
